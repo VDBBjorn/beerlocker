@@ -84,3 +84,7 @@ exports.isClientAuthenticated = passport.authenticate('client-basic', {
 exports.isBearerAuthenticated = passport.authenticate('bearer', {
     session: false
 });
+
+exports.isAuthenticated = passport.authenticate(['basic', 'bearer'], {
+    session: false
+});
