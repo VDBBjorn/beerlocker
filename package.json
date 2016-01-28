@@ -2,6 +2,7 @@
   "name": "beerlocker",
   "main": "server.js",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
     "mongoose": "^4.3.7"
